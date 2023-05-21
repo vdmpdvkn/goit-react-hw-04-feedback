@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import FeedbackOptions from './FeedbackOptions';
-import Statistics from './Statistics';
-import Section from './Section';
-import Notification from './Notification';
+import FeedbackOptions from './components/FeedbackOptions';
+import Statistics from './components/Statistics';
+import Section from './components/Section';
+import Notification from './components/Notification';
 
 const App = () => {
   const [good, setGood] = useState(0);
